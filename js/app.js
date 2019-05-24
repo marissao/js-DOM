@@ -26,24 +26,27 @@ Find the div with the id of "alias3" and replace the n/a with the following:
 
 Concatenation*/
 
+alias3.innerHTML = 'Concatenation'
 
 /*4. Prince
 
 Find the div with the class name of "profile" and replace the n/a with a verse from your favorite Prince song.*/
 
-
+var profileBox = document.getElementsByClassName('profile');
+profileBox[0].innerHTML = 'I only wanted to see you laughing in the purple rain.'
 
 /*5. Bruce Lee
 
 Find the div with the class name of "profile" and replace the n/a with a quote from the legend himself.*/
 
-
+profileBox[1].innerHTML ='"Knowledge will give you power, but character respect."'
 
 /*6. Samuel L Jackson
 
 Find the div with the class name of "alias" and replace the n/a with your favorite character that Sammy portrayed.*/
 
-
+var aliasBox = document.getElementsByClassName('alias');
+aliasBox[2].innerHTML = 'Agent Nick Fury'
 
 /*7. David Ige
 
@@ -51,7 +54,11 @@ Create a div element and give it an id of "name7". Inside this div element, give
 
 Append this div element to the nameParent div*/
 
- 
+var nameIge = document.createElement('div');
+nameIge.id = 'name7';
+nameIge.innerHTML = 'David Ige';
+nameParent.appendChild(nameIge) 
+
 /*8. The Dos Equis Dude
 
 Create a div element give it an id of "alias8". Inside this div element, give it the contents of "Stay Thirsty My Friends".
