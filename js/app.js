@@ -55,8 +55,8 @@ Create a div element and give it an id of "name7". Inside this div element, give
 Append this div element to the nameParent div*/
 
 var nameIge = document.createElement('div');
-nameIge.id = 'name7';
-nameIge.innerHTML = 'David Ige';
+nameIge.id = 'name7'
+nameIge.innerHTML = 'David Ige'
 nameParent.appendChild(nameIge) 
 
 /*8. The Dos Equis Dude
@@ -65,8 +65,26 @@ Create a div element give it an id of "alias8". Inside this div element, give it
 
 Append this div element to the aliasParent div.*/
 
-
+var aliasDosEquis = document.createElement('div');
+aliasDosEquis.id = 'alias8'
+aliasDosEquis.innerHTML = 'Stay Thirsty My Friends'
+aliasParent.appendChild(aliasDosEquis)
 
 //Final Boss
 /*9. Create your own profile.*/
 
+// var bradahIz = {
+//     name: 'Iz',
+//     position:
+//     alias:
+//     profile:
+// };
+
+document.getElementsByClassName('block3 col-sm-4').scr = 'https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiUv-3Ggr_iAhXriVQKHQg5B9IQjRx6BAgBEAU&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DV1bFr2SWP1I&psig=AOvVaw1J8blehKxSrrw2ZFPm_QAT&ust=1559160209854189';
+
+var nameIz = document.createElement('div');
+nameIz.id = 'name9'
+nameIz.innerHTML = "Israel Kamakawiwo'ole"
+
+// block3.col-sm-4.appendChild(nameIz)
+// document.body.appendChild(nameIz)
